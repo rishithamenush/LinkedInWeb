@@ -1,4 +1,6 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:linkedin_web/theme/styles.dart';
 
 class MainLandingPage extends StatefulWidget {
   const MainLandingPage({super.key});
@@ -10,6 +12,11 @@ class MainLandingPage extends StatefulWidget {
 class _MainLandingPageState extends State<MainLandingPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: linkedInLightGreyCACCCE,
+      body: Column(
+
+      ),
+    );
   }
 }
